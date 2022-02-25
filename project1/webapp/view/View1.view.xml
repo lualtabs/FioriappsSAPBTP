@@ -5,7 +5,7 @@
     xmlns="sap.m"
 >
     <Shell id="shell">
-        <App id="app">
+        <App id="app" busy="{appView>busy}">
             <pages>
                 <Page id="page" title="{i18n>title}">
                     <content />
